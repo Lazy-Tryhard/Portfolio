@@ -18,9 +18,22 @@ const Professional: React.FC<ProfessionalProps> = ({
           darkMode ? "text-gray-200" : "text-gray-800"
         }`}
       >
-        <span
-          className={`w-8 h-1 ${darkMode ? "bg-blue-400" : "bg-blue-600"} mr-3`}
-        ></span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={`h-8 w-8 mr-3 ${
+            darkMode ? "text-green-400" : "text-green-600"
+          }`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.356-.68-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+          />
+        </svg>
         {t.professional}
       </h2>
 
@@ -40,12 +53,12 @@ const Professional: React.FC<ProfessionalProps> = ({
           {t.researchInternship}
         </h3>
         <p
-          className={`${darkMode ? "text-gray-400" : "text-gray-600"} text-sm`}
+          className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-sm`}
         >
           {t.researchLab}
         </p>
         <p
-          className={`${darkMode ? "text-gray-400" : "text-gray-600"} text-sm`}
+          className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-sm`}
         >
           {t.researcherTitle} | Jan. – Jul. 2019
         </p>

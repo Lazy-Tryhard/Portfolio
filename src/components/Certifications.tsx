@@ -18,9 +18,22 @@ const Certifications: React.FC<CertificationsProps> = ({
           darkMode ? "text-gray-200" : "text-gray-800"
         }`}
       >
-        <span
-          className={`w-8 h-1 ${darkMode ? "bg-blue-400" : "bg-blue-600"} mr-3`}
-        ></span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={`h-8 w-8 mr-3 ${
+            darkMode ? "text-yellow-400" : "text-yellow-600"
+          }`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
         {t.certifications}
       </h2>
 

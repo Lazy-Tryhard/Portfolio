@@ -23,9 +23,22 @@ const Research: React.FC<ResearchProps> = ({ darkMode, modeClass, t }) => {
           darkMode ? "text-gray-200" : "text-gray-800"
         }`}
       >
-        <span
-          className={`w-8 h-1 ${darkMode ? "bg-blue-400" : "bg-blue-600"} mr-3`}
-        ></span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={`h-8 w-8 mr-3 ${
+            darkMode ? "text-purple-400" : "text-purple-600"
+          }`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.479a2 2 0 00-1.497 1.314l-.757 1.922l-.757-1.922a2 2 0 00-1.497-1.314l-2.387-.479a2 2 0 00-1.022.547m19.428 0a2 2 0 01.47.748ZM19.428 15.428a2 2 0 01.47.748M5.905 19.254a2 2 0 00-.547-1.022l-.479-2.387a2 2 0 00-1.314-1.497l-1.922-.757l1.922-.757a2 2 0 001.314-1.497l.479-2.387a2 2 0 00.547-1.022m10.095 8.276a2 2 0 01-.748-.47M5.905 19.254a2 2 0 01-.748-.47m10.095 8.276l-.479-2.387a2 2 0 00-1.314-1.497l-1.922-.757l-1.922.757a2 2 0 00-1.497 1.314l-.479 2.387a2 2 0 00-.547 1.022m10.095-8.276a2 2 0 00-.748-.47M10.5 7.5h.01M12 12h.01M16.5 7.5h.01M7.5 16.5h.01M12 16.5h.01M16.5 16.5h.01M7.5 7.5h.01M16.5 12h.01"
+          />
+        </svg>
         {t.researchInterests}
       </h2>
 

@@ -14,9 +14,22 @@ const Education: React.FC<EducationProps> = ({ darkMode, modeClass, t }) => {
           darkMode ? "text-gray-200" : "text-gray-800"
         }`}
       >
-        <span
-          className={`w-8 h-1 ${darkMode ? "bg-blue-400" : "bg-blue-600"} mr-3`}
-        ></span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={`h-8 w-8 mr-3 ${
+            darkMode ? "text-blue-400" : "text-blue-600"
+          }`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.17-3.56M12 14v6m6.17-3.56L12 20m6.17-3.56L18 16m-6 4l-6.17-3.56M12 20l-6.17-3.56m0 0L6 16m6 4v-6m-6.17 3.56L12 14"
+          />
+        </svg>
         {t.education}
       </h2>
 
@@ -39,14 +52,14 @@ const Education: React.FC<EducationProps> = ({ darkMode, modeClass, t }) => {
             </h3>
             <p
               className={`${
-                darkMode ? "text-gray-400" : "text-gray-600"
+                darkMode ? "text-gray-300" : "text-gray-600"
               } text-sm`}
             >
               {t.university}
             </p>
             <p
               className={`${
-                darkMode ? "text-gray-400" : "text-gray-600"
+                darkMode ? "text-gray-300" : "text-gray-600"
               } text-sm`}
             >
               {t.advisors} | Sep. 2019 – Now
@@ -78,12 +91,12 @@ const Education: React.FC<EducationProps> = ({ darkMode, modeClass, t }) => {
           {t.masters}
         </h3>
         <p
-          className={`${darkMode ? "text-gray-400" : "text-gray-600"} text-sm`}
+          className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-sm`}
         >
           {t.university}
         </p>
         <p
-          className={`${darkMode ? "text-gray-400" : "text-gray-600"} text-sm`}
+          className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-sm`}
         >
           Thesis: "Generation of prototypes Based on Fuzzy C-Means for the KNN
           algorithm" | 2017–2019
@@ -106,12 +119,12 @@ const Education: React.FC<EducationProps> = ({ darkMode, modeClass, t }) => {
           {t.bachelors}
         </h3>
         <p
-          className={`${darkMode ? "text-gray-400" : "text-gray-600"} text-sm`}
+          className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-sm`}
         >
           {t.university}
         </p>
         <p
-          className={`${darkMode ? "text-gray-400" : "text-gray-600"} text-sm`}
+          className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-sm`}
         >
           Thesis: "Design and development of a web platform for managing the
           prefecture's archives" | 2014–2017

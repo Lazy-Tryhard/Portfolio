@@ -9,6 +9,8 @@ export const translations = {
 
     // Header
     title: "PhD Student | Machine Learning Researcher | Educator",
+    headerUniversity:
+      "Faculty of Sciences and Technology, University Sidi Mohamed Ben Abdellah Fez, Morocco",
 
     // Education
     phd: "Ph.D Student in Computer Science - Artificial Intelligence",
@@ -35,11 +37,19 @@ export const translations = {
 
     // Teaching
     teachingExperience: "Teaching Experience",
-    tempTeacher: "Temporary Practical Work Teacher",
+    tempPracticalWorkTeacher: "Temporary Practical Work Teacher",
+    tempTeacher: "Temporary Teacher",
     algorithms: "Algorithms and programming in C",
     databases: "Databases",
     msAccess: "MS Access",
     mysql: "MySQL",
+    contentManagementSystems: "Content Management Systems",
+    digitalCulture: "Digital Culture",
+    computerFundamentals: "Computer Fundamentals",
+    microsoftWord: "Microsoft Word",
+    microsoftExcel: "Microsoft Excel",
+    microsoftPowerpoint: "Microsoft Powerpoint",
+    coursePracticalWork: "(Course + Practical Work)",
 
     // Publications
     publications: "Publications",
@@ -47,6 +57,9 @@ export const translations = {
     // Footer
     copyright: "© 2025 BOUALI Aymane. All rights reserved.",
     craftedWith: "Crafted with React & TailwindCSS",
+    researchgate: "ResearchGate",
+    linkedin: "LinkedIn",
+    github: "GitHub",
   },
   fr: {
     // Navigation
@@ -58,6 +71,8 @@ export const translations = {
 
     // Header
     title: "Doctorant | Chercheur en Machine Learning | Enseignant",
+    headerUniversity:
+      "Faculté des Sciences et Techniques, Université Sidi Mohamed Ben Abdellah Fès, Maroc",
 
     // Education
     phd: "Doctorant en Informatique - Intelligence Artificielle",
@@ -84,11 +99,19 @@ export const translations = {
 
     // Teaching
     teachingExperience: "Expérience d'Enseignement",
-    tempTeacher: "Enseignant Vacataire des Travaux Pratiques",
+    tempPracticalWorkTeacher: "Enseignant Vacataire des Travaux Pratiques",
+    tempTeacher: "Enseignant Vacataire",
     algorithms: "Algorithmes et programmation en C",
     databases: "Bases de Données",
     msAccess: "MS Access",
     mysql: "MySQL",
+    contentManagementSystems: "Systèmes de gestion de contenu",
+    digitalCulture: "Culture digitale",
+    computerFundamentals: "Fondamentaux des ordinateurs",
+    microsoftWord: "Microsoft WORD",
+    microsoftExcel: "Microsoft Excel",
+    microsoftPowerpoint: "Microsoft Powerpoint",
+    coursePracticalWork: "(Cours + Travaux Pratiques)",
 
     // Publications
     publications: "Publications",
@@ -96,5 +119,8 @@ export const translations = {
     // Footer
     copyright: "© 2025 BOUALI Aymane. Tous droits réservés.",
     craftedWith: "Créé avec React & TailwindCSS",
+    researchgate: "ResearchGate",
+    linkedin: "LinkedIn",
+    github: "GitHub",
   },
 };
